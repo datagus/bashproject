@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#Project guess, uses bash, git and file system
 
 num=$(ls | wc -l)
 response=""
