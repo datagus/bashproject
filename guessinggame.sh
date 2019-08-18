@@ -6,12 +6,12 @@ num=$(ls | wc -l)
 response=""
 
 feedback () {
-    if [[ $response -gt $num ]]
-    then
-        echo "Too big."
-    else
-        echo "Too small."
-    fi
+  if [[ $response -gt $num ]]
+  then
+    echo "Too big."
+  else
+    echo "Too small."
+  fi
 }
 
 while [[ $response -ne $num ]]
@@ -21,9 +21,8 @@ do
 	if [[ $response -eq $num ]]
 	then
 		echo "That's it! Nice work."
-	    break
+	  break
 	else
-	    feedback
+	  feedback
 	fi
 done
-foo bar
