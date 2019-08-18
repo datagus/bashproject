@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-#Project guess, uses bash, git and file system
+
+# Project guess, uses bash, git and file system
 
 num=$(ls | wc -l)
 response=""
@@ -20,8 +21,11 @@ do
 	if [[ $response -eq $num ]]
 	then
 		echo "That's it! Nice work."
-		break
+	    break
 	else
-	feedback
+	    feedback
 	fi
 done
+
+
+this is not code
