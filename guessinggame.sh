@@ -16,13 +16,13 @@ feedback () {
 
 while [[ $response -ne $num ]]
 do
-	echo "Guess how many files: "
-	read response
-	if [[ $response -eq $num ]]
-	then
-		echo "That's it! Nice work."
-	  break
-	else
-	  feedback
-	fi
+  echo "Guess how many files: "
+  read response
+  if [[ $response -eq $num ]]
+  then
+    echo "That's it! Nice work."
+    break
+  else
+    feedback
+  fi
 done
