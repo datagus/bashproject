@@ -1,6 +1,6 @@
 ### Bash Guessing Game  
 
-Shell scripting exercise, includes use of makefile process. Makefile rebuilds this `readme.md` file if script changes.  The game asks the user for guess of the number of files in the current directory.  
+Shell scripting exercise, with Makefile to rebuild `readme.md` file if script changes.  The game asks the user for guess of the number of local files.  
 
-Installed date:  Mon Aug 19 14:55:33 PDT 2019  
-Lines of code:  28
+Installed:  Mon Aug 19 15:03:54 PDT 2019  
+Lines:  29

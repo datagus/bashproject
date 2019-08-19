@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# Little guessing game for bash scripting
+# Guessing game task for bash scripting. Asks for guess of number of files in
+# current directory, giving feedback on too high or too low.
 
 num=$(ls | wc -l)
 response=""
