@@ -26,6 +26,3 @@ do
 	    feedback
 	fi
 done
-
-
-this is not code
