@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Project guess, uses bash, git and file system
+# Little guessing game for bash scripting demo
 
 num=$(ls | wc -l)
 response=""
